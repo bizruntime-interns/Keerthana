@@ -1,0 +1,11 @@
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Employees\Employees\bin\Debug\netcoreapp3.0\Company.exe
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Employees\Employees\bin\Debug\netcoreapp3.0\Company.deps.json
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Employees\Employees\bin\Debug\netcoreapp3.0\Company.runtimeconfig.json
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Employees\Employees\bin\Debug\netcoreapp3.0\Company.runtimeconfig.dev.json
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Employees\Employees\bin\Debug\netcoreapp3.0\Company.dll
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Employees\Employees\bin\Debug\netcoreapp3.0\Company.pdb
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Employees\Employees\obj\Debug\netcoreapp3.0\Company.csprojAssemblyReference.cache
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Employees\Employees\obj\Debug\netcoreapp3.0\Company.AssemblyInfoInputs.cache
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Employees\Employees\obj\Debug\netcoreapp3.0\Company.AssemblyInfo.cs
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Employees\Employees\obj\Debug\netcoreapp3.0\Company.dll
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Employees\Employees\obj\Debug\netcoreapp3.0\Company.pdb

@@ -1,0 +1,32 @@
+HTML DOM EVENTS
+1)abort:object.onabort=function(){myscript};
+2)afterprint:object.onafterprint = function(){myscript};
+it doesnot support in safari and opera 
+ex.document.getElementByTagName("BODY")[0].onafterprint = function()
+{myfunction()};
+fuction myfunction()
+{
+alert("the document is being printed ");
+}
+3)beforeprint:object.onbeforeprint = function(){myscript};
+it is not supported by opera and safari
+ex.document.getElementByTagName("BODY")[0].onbeforeprint = function(){myfunction()};
+function myfunction()
+{
+alert("you are about to print this document!");
+}
+4)onbeforeunload = function(event)
+{
+event.returnValue="write something clever here..";
+};
+
+5)blur:object.onblur=function(){myfunction};
+ex.document.getElementById("fname").onblur = function(){myfunction()};
+function myfunction()
+{alert("input field lost focus");}
+
+6)copy:object.oncopy=function(){myfunction};
+ex.document.getElementById("myinput").oncopy=function(){myfunction};
+function myfunction(){
+alert("copied");
+}
