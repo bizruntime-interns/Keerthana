@@ -1,0 +1,55 @@
+C# collections
+It represents group of objects 
+Operations performed :
+Store object
+update object
+delete object
+retrieve object
+sort object
+Objects can stored in array or collection
+
+Types of Collections in C#
+
+System.Collections.Generic classes:
+
+These namespace has following classes-
+
+1)List<>:there is two ways to implement the lists 
+.By giving the values directly ,storing the elements by using the method 
+.By using the collection intializer
+
+2)HashSet<>:used to store,remove or view the elements 
+Doesnot store duplicate elements
+It is used only store unique elemenets
+It is found in System.Collections.Generic namespace
+There are two ways of implementing the Hashset function
+.By implementing using collection intializer
+.By storing the values using a particular method 
+
+3)SortedSet<>:it maintains the ascending order and doesnot store duplicate elements 
+There are two ways of implementing the Hashset function
+.By implementing using collection intializer
+.By storing the values using a particular method 
+
+4)Stack<>:Used to push ansd pop the elements
+Uses the concept of stack that arranges elements in LIFO(last in first out) order
+Can have duplicate values
+Uses methods like push , pop and peek
+
+5)Queue<>:Used to enqueue and dequeue the elements 
+Uses the concept of queue that arranges elements in FIFO(first in first out)
+It can also have duplicate elements 
+Methods used are peek,enqueue,dequeue
+
+6)LinkedList<>:It allows to insert and delete elements fastly
+allows duplicate elements 
+Also allows to add and remove the element at before or last index
+
+7)Dictionary<key,value>:Uses the concept of hash table 
+contains only unique keys only
+By the help of key can easily search or remove the elements 
+
+8)SortedDisctionary<key,value>:Same as dictionary but only thing that is added to this is ascending order
+
+ 
+ 
