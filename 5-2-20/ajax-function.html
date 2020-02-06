@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AJAX FUNCTIONS</title>
+</head>
+<body>
+	<div id="funct">
+		<h1>AJAX FUNCTIONS</h1>
+		<button type="button" onclick="twofunct('postcheck.txt',twofunction)">FUNCTIONS CHECK</button>
+	</div>
+	<script >
+		function twofunct(url,twof)
+		{
+			var func=new XMLHttpRequest();
+			func.onreadystatechange=function()
+			{
+				if(this.readyState==4 && this.status==200)
+				{
+					twof(this);
+				}
+			};
+			func.open("GET",url,true);
+			func.send();	
+		}
+		function twofunction(func)
+		{
+			document.getElementById("funct").innerHTML=func.responseText;
+
+		}
+	</script>
+
+</body>
+</html>
