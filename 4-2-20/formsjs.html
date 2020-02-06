@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AJAX Forms:WEB DCODE</title>
+</head>
+<style >
+	#form-messages{
+		background-color:rcg(225,232,232);
+		border: 1px solid red;
+		color:red;
+		display:block;
+		font-size:12px;
+		font-weight:bold;
+		margin-bottom:10px;
+		padding: :10px 25px;
+		max-width:250px; 
+	}
+</style>
+<body>
+	<h1>LOGIN TO AJAX</h1>
+	<div class="form" action="dashboard.html">
+		<ul id="form-messages">
+			<li>Generic message #1</li>
+		</ul>
+		<label for="username">USERNAME:</label>
+		<input type="text" id ="username" spellcheck="false"><br/>
+		<br/>
+		<label for="password" >PASSWORD:</label>
+		<input type="password" id="password">
+		<br/>
+		<br/>
+		<button type="submit" id="subbutton" >LOGIN</button>
+	</div>
+		<script >
+			const form={
+				username:document.getElementById('username'),
+				password:document.getElementById('password'),
+				submit:document.getElementById('subbutton'),
+				message:document.getElementById('form-messages')
+
+			};
+			form.submit.addEventListener('click',()=>{
+				const request =new XMLHttpRequest();
+				request.onload=()=>{
+					let responseObject=null;
+					try
+					{
+						responseObject=JSON.parse(request.responseText);
+					}
+					catch(e)
+					{
+						console.error('could not parse JSON');
+					}
+					finally{
+
+					if(responseObject)
+					{
+						handleResponse(responseObject);
+					}
+				};
+				const requestData='username=${form.username.value}&password=${form.password.value}';
+				console.log(requestData);
+				request.open('post','check-login.php',true);
+				request.setRequestHeader('Content-type','application/x-www-form-urlencoded');
+				request.send(requestData);
+				
+
+				});
+			function handleResponse(responseObject){
+				if(responseObject.ok){
+					location.href='dashboard.html';
+				}
+			}
+}
+			
+		</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Linq\Linq\bin\Debug\netcoreapp3.0\Linq.exe
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Linq\Linq\bin\Debug\netcoreapp3.0\Linq.deps.json
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Linq\Linq\bin\Debug\netcoreapp3.0\Linq.runtimeconfig.json
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Linq\Linq\bin\Debug\netcoreapp3.0\Linq.runtimeconfig.dev.json
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Linq\Linq\bin\Debug\netcoreapp3.0\Linq.dll
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Linq\Linq\bin\Debug\netcoreapp3.0\Linq.pdb
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Linq\Linq\obj\Debug\netcoreapp3.0\Linq.csprojAssemblyReference.cache
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Linq\Linq\obj\Debug\netcoreapp3.0\Linq.AssemblyInfoInputs.cache
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Linq\Linq\obj\Debug\netcoreapp3.0\Linq.AssemblyInfo.cs
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Linq\Linq\obj\Debug\netcoreapp3.0\Linq.dll
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Linq\Linq\obj\Debug\netcoreapp3.0\Linq.pdb

@@ -1,0 +1,7 @@
+LINQ-Language Integrated Query 
+Microsoft's query language is fully integrated and offers easy data access from in-memory objects,databases,XML documents and many more 
+It is through a set of extentions,LINQ ably integrates queries in c# and visual basic
+With linq ,a query is first class language construct, just like classes,methods and events
+Here you write queries against strongly typed collections of objects by using language keywords and familiar operators
+Gives consistent query experience for objects ,relational database and XML
+Can be used in any collection of objects that supprt IEnumerable or generic IEnumerable <T> interface
