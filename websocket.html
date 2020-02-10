@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WEBSOCKET</title>
+</head>
+<body>
+	<div id="content">
+		<h1>WEBSOCKET</h1>
+		<button onclick="sendWebSocketMsg();">send websocket message</button>
+		<div id="msgs"/>
+	</div>
+	<script type="text/javascript">
+		var msgs=document.getElementById("msgs");
+		function log(msg)
+		{
+			msgs.innerHTML += msg + "<br/><br/>";
+		}
+		function sendWebSocketMsg(){
+			if("WebSocket" in window)
+			{
+				log("WebSocket is supported");
+				var ws=new WebSocket("wss://echo.websocket.org");
+				ws.onopen=function()
+				{
+					var msg="Hello world";
+					log("Connection opened with echo websocket server");
+					ws.send(msg);
+					log("message sent:"+msg);
+				};
+
+			}
+		}
+	</script>
+
+</body>
+</html>

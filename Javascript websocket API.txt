@@ -1,0 +1,38 @@
+Server working of Websocket
+
+A Websocket server is a simple program which has the capability to handle the websocket servers events and actions
+WebSocket server works in similar way to the websocket clients
+Websocket servers can perform some actions:
+It is intialized to web socket address
+It can also handle Onopen,Onclose and Onmessage events
+
+Creating a WebSocket Server Instance
+
+1)var server=new WebSocketServer("any websocket url");
+Any valid URLs can be used with the specification of the port
+
+2)Small part represents the incoming connection that is clients with IwebSocketConnection interface
+When someone connects or disconnects from the service ,empty list can be created or updated
+var clients =new List<IWebSocketConnection>();
+
+3)We can call the start method and wait for clients to connect
+The start method needs a parameter which indicates the socket that raised the event
+server.Start(socket) =>
+{
+});
+
+Methods used in Websocket are:
+Onopen:connection of server and the client
+Onclose:raises wenever the client is disconnected
+Onmessage:raises when client sends data to the server
+
+Advantages of WebSocket
+1)It is bidirectional whereas http is unidirectional,client always initiates the request
+Websocket is bidirectional but it doesnot have predefined message pattern such as request/response 
+2)FullDuplex:WebSocket allows the client and server to talk independent of eachother
+3)TCP connection(Single):
+
+Conclusion:
+It is a low level protocol (why?? everything including simple request/response and create ,delete,update methods to be build on top of it 
+But,http has everything well defined
+This is stateful(server thinks that the client is dumb machine)whereas http is stateless

@@ -1,0 +1,17 @@
+Task Asynchronous programming (TAP)
+
+It provides an abstraction over asynchronous code
+
+The goal of the syntax is to:
+Enable the code that reads like a sequence of statements,
+but executes in a much more complicated order based on external 
+resource allocation and when tasks completes
+
+The keywords used here are await and async
+
+Best example for asynchronous is cooking breakfast 
+HOW??? -One person can handle all different tasks involved in the preparing
+One person(single thread) can make breakfast asynchronously by starting the next before the first task completes
+Multiple cooks can be implemented(multiple threads can used) but each cook would be blocked synchronously waiting for each task to be completed
+
+Asynchronous code is more efficient than the synchronous code
