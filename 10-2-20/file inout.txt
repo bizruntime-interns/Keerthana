@@ -1,0 +1,50 @@
+File is a collection of data stored in a disk with a specific name and 
+directory path
+When is opened for reading and writing it becomes a stream
+Stream is sequence of bytes passing through the communication path
+Two types of stream:
+Input stream-used for reading data from file 
+Output stream-used for writing into the file
+Namespace :System.IO
+
+Some commonly used non-abstract classes in System.IO namespace :
+1)BinaryReader:reads primitive data from binary stream
+2)BinaryWriter:writes primitive data into binary format
+3)BufferedStream:temporary storage for a stream of bytes
+4)Directory:Helps in manipulating a structure of directory
+5)DirectoryInfo:for performing operations on directories
+6)DriveInfo:Provides info for the drives
+7)StreamReader and StreamWriter:reading the characters from the byte stream
+8)StringReader and StringWriter:reading/writing from/into a string buffer
+
+FileStream:This class derives from the abstract class Stream
+Synatx-
+FileStream<objectname>=new FileStream(<filename>,<filemode enumerator>,
+<Fileaccess enumerator>,<fileshare enumerator>);
+
+Various Parameters are:
+1.FileMode:defines various methoda for opening files
+Few members of the FileMode are:
+Append ,Create,CreateNew,Open,OpenOrCreate,Truncate
+
+2.FileAccess:
+Few members are Read,ReadWrite and Write
+
+3.FileShare:
+Few members are-
+Inheritable allows a file handle to pass inheritance to the child processes
+None declines sharing of the current file
+Read allows opening the file for reading
+ReadWrite allows opening the file for reading and writing 
+Write allows opening the file for writing
+
+StreamWriter:used to write series of characters into the text files
+
+DirectoryInfo Class
+It is derived from FileSystemInfo class
+methods are creating,moving and browsing
+Cannot be inherited 
+
+Methods:CreationTime
+Exists
+

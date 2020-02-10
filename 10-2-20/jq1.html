@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#hide").click(function(){
+				$("div").hide();
+			});
+			$("#show").click(function(){
+				$("div").show();
+			});
+		
+		});
+		$(document).ready(function(){
+			$("#Fade").click(function(){
+				$("#1").fadeIn("slow");
+				$("#2").fadeIn(2000);
+			});
+		});
+
+	</script>
+</head>
+<body>
+	<div >JQUERY DIVISION</div><br/>
+	<div id="1" style="background-color:red;height:40px;width:80px;display:none;"></div><br/>
+	<div id="2" style="background-color:blue;height:40px;width:80px;display:none;"></div><br/>
+	<br/>
+	<button id="Fade">Fade</button>
+	<button id="hide">HIDE</button>
+	<button id="show">SHOW</button>
+</body>
+</html>
