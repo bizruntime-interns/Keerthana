@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#append").click(function(){
+				$("#ap").append("<br/>"+"<b>Append function</b>");
+			});
+			$("#prepend").click(function(){
+				$("#ap").prepend("<b>Prepend function</b>"+"<br/>");
+			});
+		});
+	</script>
+</head>
+<body>
+	
+	<p id="ap">Jquery add function</p>
+	<button id="append">Add element</button>&nbsp;<button id="prepend">Add element first</button>
+
+</body>
+</html>

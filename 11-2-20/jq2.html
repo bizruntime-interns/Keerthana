@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("div").hover(function(){
+				var d=$("div");
+				d.animate({width:'300px',opacity:'0.7'},"slow");
+				d.animate({height:'300px',opacity:'0.8'},"slow");
+				d.animate({width:'200px',opacity:'0.7'},"slow");
+				d.animate({height:'200px',opacity:'0.8'},"slow");
+			});
+		});
+	</script>
+</head>
+<body>
+	<button>Click</button>
+	<div style="background-color :blue;position: absolute;height:100px;width:100px;"></div>
+</body>
+</html>

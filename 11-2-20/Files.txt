@@ -1,0 +1,4 @@
+BinaryReader and BinaryWriter Class
+
+BinaryReader class is used to read binary data from the file
+BinaryWriter class is used to write the binary data to stream

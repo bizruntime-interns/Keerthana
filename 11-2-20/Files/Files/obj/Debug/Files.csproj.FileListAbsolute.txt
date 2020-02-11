@@ -1,0 +1,6 @@
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Files\Files\bin\Debug\Files.exe.config
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Files\Files\bin\Debug\Files.exe
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Files\Files\bin\Debug\Files.pdb
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Files\Files\obj\Debug\Files.csprojAssemblyReference.cache
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Files\Files\obj\Debug\Files.exe
+C:\Users\KEERTHANA J .LAPTOP-C63HDTQ8\source\repos\Files\Files\obj\Debug\Files.pdb

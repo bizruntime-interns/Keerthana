@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("button").click(function(){
+				$.ajax({url:"F:/hey.txt",success:function(result){
+					$("div").html(result);
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+	<button>click for extraction</button>
+	<div>this is jquery ajax</div>
+
+</body>
+</html>

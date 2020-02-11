@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<center><script>
+		$(document).ready(function(){
+			$("#magic1").click(function(){
+				$("#magic").css("color","blue").slideUp(2000).slideDown(2000);
+			});
+		});
+		$(document).ready(function(){
+			$("#text").click(function(){
+				document.write("text:"+$("#check").text());
+			});
+			$("#html").click(function(){
+				document.write("html tag:"+$("#check").html());
+			});
+			$("#value").click(function(){
+				document.write("the value:"+$("#input").val());
+			});
+		});
+	</script>
+</head>
+<body>
+	<p>Input:<input type="text" id="input" value="hey"></p>
+	<p id="check">the text here is <u>underlined</u></p>
+	<button id="text">click for text</button>
+	<button id="html">click for html</button>
+	<button id="value">click for value</button>
+<p id="magic">paragraph</p>
+<button id="magic1">click for magic</button>
+</body></center>
+</html>
