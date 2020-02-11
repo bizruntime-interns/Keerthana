@@ -1,0 +1,47 @@
+JQuery
+Purpose is to make it easier to use JavaScript,it
+takes many common tasks that requires many lines of js code
+that can call with single line of code
+It contains thes features:
+HTML/DOM manipulation
+CSS manipulation
+HTML event methods
+Ajax
+
+Jquery Syntax:
+$(selector).action()
+where $-define/access jquery
+(selector)-query(or find) html elements
+
+Ex.$(this).hide
+$("p").hide()
+$(".classname").hide()
+$("#idname").hide()
+
+Document Ready Event
+Syntax:
+$(document).ready(function(){
+jquery methods
+});
+
+Jquery events 
+click
+dblclick
+mouseenter
+mouseleave
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

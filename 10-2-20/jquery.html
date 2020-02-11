@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQUERY INTRO</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script >
+		$(document).ready(function() {
+			$("button").click(function() {
+				$("#jp1").hide()
+				$("h1").css("background-color","blue");
+			});
+		});
+		$(document).ready(function() {
+			$("#jp").click(function()
+			{
+				$(this).hide()
+			});
+
+		});
+		$(document).ready(function(){
+			$("div").mouseenter(function(){
+				alert("U performed mouseenter");
+			});
+		});
+		$(document).ready(function()
+		{
+			$("#hover").hover(function()
+			{
+				alert("hover over sentence");
+			},
+			function(){
+				alert("Bye!");
+			});
+		});
+	</script>
+</head>
+<body>
+	<h1> INTRODUCTION TO JQUERY </h1>
+	<p id="jp1">Hello World </p>
+	<p id="jp"> Jquery purpose is to make easier to code the javascript </p> 
+	<p id="hover">Jquery</p>
+	<div>Mouseenter</div>
+	<button>Click to function</button>
+
+</body>
+</html>
